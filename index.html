@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Watchology 101</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times"onclick="hideMenu()"></i>
+               <ul> 
+                     <li><a href="">HOME</a></li>
+                     <li><a href="">ABOUT US</a></li>
+                     <li><a href="">WATCH DICTIONARY</a></li>
+                     <li><a href="">BLOG</a></li>
+                     <li><a href="">CONTACT US</a></li>
+               </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>Welcome to Watchology 101</h1>
+    <p>Here at Watchology 101 we specifically educate, inform and advise visitors that are looking to purchase their first watch<br> and ultimatley learn more about time pieces entirely.</p>
+    <a href="" class="hero-btn">Click here to learn more</a>
+</div>
+
+</section>
+
+<!----- classes ------>
+
+<section class="classes">
+    <h1>Classes we offer</h1>
+    <p>The three major aspects about a watch</p>
+    
+    <div class="row">
+      <div class="classes-col">
+        <h3>"History"</h3>
+        <p>The History of a wrist watch is a plays a articulate role in its significance because that is the watches story and background.
+        </p>
+       </div>
+       <div class="classes-col">
+        <h3>"Quality"</h3>
+        <p>The quality of a watch is very important because the quality reflects on its durability and longetivity.
+            The five qualities that make a good wrist watch is the Weight, the movement, the name and tradition, the Swiss branding and the accuracy.
+        </p>
+       </div>
+       <div class="classes-col">
+        <h3>"Decision Making"</h3>
+        <p>The most crucial process when purchasing a watch. You will be spending a significant
+            amount of cash on a timepiece you'll have most likely own for the rest of your life. You must
+            make the right decision because their is no turning back.</p>
+       </div>
+    </div>
+</section>
+
+<!------buyer----->
+
+<section class="buyer">
+    <h1>Our Buyers Guide</h1>
+    <p>Dont worry about your location, we offer online classes!</p>
+
+    <div class="row">
+        <div class="buyer-col">
+            <img src="images/buyers guide.png">
+            <div class="layer">
+                <h3>IN PERSON</h3>
+            </div>
+    </div>
+    <div class="buyer-col">
+        <img src="images/buyers guide2.png">
+        <div class="layer">
+            <h3>ONLINE</h3>
+        </div>
+</div>
+</section>
+
+<!--------testimonials------>
+
+<section class="testimonials">
+
+    <h1>Customer feedback</h1>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user1.jpg">
+            <div>
+            <p>“I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to take this online course. 
+                I just purchased a my first Rolex 41mm Skydweller! This is the first of many."</p>
+                <h3>Matthew kellems</h3>
+            </div>    
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user2.jpg">
+            <div>
+            <p>“Honestly I came into this class not really expecting to learn much but my experience was the total oppoiste. 
+                I feel like a genuine watch enthusiasist. I would defintely recommend this class to my friends."</p>
+                <h3>John leeven</h3>
+            </div>    
+        </div>
+    </div>
+</section>
+
+<
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+     
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+
+</script>
+
+<footer>
+	<p>&copy 2021, Ikechukwu Anyanwu.</p>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
